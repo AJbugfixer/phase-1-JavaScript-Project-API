@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail Party-Javascript Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div id="drink-header">
+        <img
+            src="https://www.dineout.co.in/blog/wp-content/uploads/2016/12/Mumbai-blog-banner-1400x400px.jpg"
+            alt="cocktail-header"
+            id="picture"
+            width="1150px"
+            height="50px"
+        />
+    </div>
+    <div id="dropdown">
+        <p id="title">
+            Fun with Cocktail!
+        </p>
+        <p id="subtitle">A place to look up fun drink ideas!</p>
+        <label id="choose" for="alcohol">Choose alcohol you like: </label>
+        <select name="alcohol" id="alcohols">
+            <option value=""></option>
+            <option value="Vodka">Vodka</option>
+            <option value="Gin">Gin</option>
+            <option value="Rum">Rum</option>
+            <option value="Tequila">Tequila</option>
+            <option value="Whiskey">Whiskey</option>
+        </select>
+    </div>
+    
+    <div id="list">
+        <ol id="drink-list">
+            
+        </ol>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+</html>
